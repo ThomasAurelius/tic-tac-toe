@@ -39,6 +39,24 @@ body {
    cursor: pointer;
 }
 
+.playerX {
+   background-color: #f00;
+   font-size: 2rem;
+   width: 150px;
+   text-align: center;
+   margin: 0 auto;
+   margin-bottom: 1rem;
+}
+
+.playerO {
+   background-color: #00f;
+   font-size: 2rem;
+   width: 150px;
+   text-align: center;
+   margin: 0 auto;
+   margin-bottom: 1rem;
+}
+
 .game-btn:hover {
    background: #555;
 }
@@ -114,10 +132,3 @@ body {
    font-weight: normal;
 }
 
-.x {
-   color: #f00;
-}
-
-.o {
-   color: #00f;
-}
